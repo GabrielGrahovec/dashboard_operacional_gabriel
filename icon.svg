@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- fundo azul escuro com bordas arredondadas (padrão iOS) -->
+  <rect width="512" height="512" rx="112" fill="#0D1B2A"/>
+  <!-- camada secundária sutil -->
+  <rect x="24" y="24" width="464" height="464" rx="88" fill="#0F2240"/>
+  <!-- motivo chevron decorativo — canto superior direito (token brand.motif_chevron) -->
+  <clipPath id="cc"><rect width="512" height="512" rx="112"/></clipPath>
+  <g clip-path="url(#cc)" opacity="1">
+    <polyline points="340,0 512,172 340,344" fill="none" stroke="#2B4FFF" stroke-width="8" opacity="0.50" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="368,0 540,172 368,344" fill="none" stroke="#2B4FFF" stroke-width="6" opacity="0.30" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="394,0 566,172 394,344" fill="none" stroke="#4B6FD4" stroke-width="5" opacity="0.18" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  <!-- separador azul elétrico (token component.divider_blue) -->
+  <rect x="176" y="296" width="56" height="3" rx="2" fill="#2B4FFF"/>
+  <!-- wordmark "haus" — Nunito ExtraLight, sempre lowercase, cor #2B4FFF -->
+  <text
+    x="256" y="280"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="124"
+    font-weight="200"
+    fill="#2B4FFF"
+    text-anchor="middle"
+    letter-spacing="-2"
+    font-style="normal"
+  >haus</text>
+  <!-- tagline "invest" menor abaixo -->
+  <text
+    x="256" y="338"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="38"
+    font-weight="400"
+    fill="#B0BFDB"
+    text-anchor="middle"
+    letter-spacing="8"
+  >INVEST</text>
+</svg>
